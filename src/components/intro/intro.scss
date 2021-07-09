@@ -14,6 +14,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include mobile {
+            flex: 0.4
+        }
     
         .imgContainer{
             width: 400px;
@@ -40,7 +43,9 @@
     .right{
         flex: 0.5;
         position: relative;
-
+        @include mobile {
+            flex: 0.6
+        }
 
         .wrapper{
             width: 100%;

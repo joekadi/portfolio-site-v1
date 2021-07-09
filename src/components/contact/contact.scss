@@ -31,7 +31,10 @@
         justify-content: center;
 
         h2{
-            font-size: 22px;
+            font-size: 30px;
+            @include mobile {
+                font-size: 22px;
+            }
         }
 
         .socialIcons{

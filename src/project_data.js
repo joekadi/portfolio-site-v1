@@ -6,8 +6,8 @@ export const projectPortfolio = [
       desc: [
         "Grade A self defined masters year individual project",
         "Motivated, implemented and evaluated 3 uncertainty estimation methods for Deep Neural Network's to enable Bayesian Inverse Reinforcement Learning",
-        "Developed a PyTorch framework to train, tune and evaluate the models on a benchmark problem allowing incremental noise to be added into state-space representation",
-        "To enable further research, it has been built modularly so that other models, objective functions and benchmark problems can be easily integrated",
+        "Developed a framework to train, tune and evaluate the models on a benchmark problem allowing incremental noise to be added into state-space representation",
+        "Other model, objective functions and benchmark problems can be easily integrated",
       ],
       technologies: ["Python","NumPY", "PyTorch", "MatLab"],
       linkTitles: ["Paper", "Repo"],

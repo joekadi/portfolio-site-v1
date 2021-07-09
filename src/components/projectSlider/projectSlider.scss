@@ -1,0 +1,183 @@
+@import "../../global.scss";
+
+
+.projectSlider{
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    h1{
+        position: absolute;
+        top: 30px;
+        font-size: 50px;
+        @include mobile{
+            font-size: 35px;
+        }
+        color: white;
+    }
+    .button {
+        width: 250px;
+        height: 30px;
+        bottom: 60px;
+        position: absolute;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        color: crimson;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 14px;
+        
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        @include mobile{
+            height: 30px;
+            
+        }
+        
+
+        &.left{
+            left: 100px;
+            transform: rotateY(180deg);
+            @include mobile{
+                left: 4px;
+            }
+
+        }
+
+        &.right{
+            right: 100px;
+            @include mobile{
+                right: 4px;
+            }
+
+
+        }
+    }
+
+    .slider {
+        height: 350px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+
+        @include mobile {
+            height: 100vh;
+
+          }
+
+        .container {
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .item{
+                width: 700px;
+                height: 100%;
+                background-color: white;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                    width: 80%;
+                    height: 60%;
+                    margin: 15px 0;
+                  }
+
+                .contentContainer{
+                    width: 90%;
+                    height: 90%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    h2{
+                        font-size: 20px;
+
+                        @include mobile {
+                            font-size: 18px;
+                          }
+                    }
+    
+                    h3{
+                        font-size: 16px;
+                        font-weight: inherit;
+
+                        @include mobile {
+                            font-size: 14px;
+                          }
+
+                        b{
+                            color: crimson;
+                            
+                        }
+                        
+                    }
+    
+                    ul{
+                        font-size: 14px;
+                        @include mobile {
+                            font-size: 12px;
+                          }
+
+                    }
+                    .links {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: 100%;
+                        
+                       
+    
+                        span{
+                            /*
+                            font-size: 12px;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                            */
+
+                            color: crimson;
+                            text-decoration: underline;
+                            font-weight: 900;
+                            cursor: pointer;
+    
+                            font-size: 16px;
+                
+                                &:focus{
+                                    outline: none;
+                                }
+                            
+                        
+                        }
+                    }
+
+                }
+
+            }
+            
+        } 
+
+    }
+
+}

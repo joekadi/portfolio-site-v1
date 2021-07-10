@@ -13,15 +13,15 @@
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox
-        
+
+        &::-webkit-scrollbar{
+            display: none; //for other browsers
+        }
+
+
         @include mobile {
             scroll-behavior: none;
             scroll-snap-type: none;
-        }
-        
-        
-        &::-webkit-scrollbar{
-            display: none; //for other browsers
         }
 
         > *{

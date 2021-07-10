@@ -4,7 +4,7 @@ export const projectPortfolio = [
       icon: "assets/mobile.png",
       title: "MSci Thesis Project",
       desc: [
-        "Grade A self defined individual project",
+        "Grade A self defined masters year individual project",
         "Titled: 'Evaluating Uncertainty Estimation Methods For Deep Neural Network’s In Inverse Reinforcement Learning'",
         "Implemented and evaluated each method using a novel PyTorch framework I developed",
 
@@ -19,7 +19,7 @@ export const projectPortfolio = [
       title: "BSc Dissertation Project",
     
       desc: [
-        "Grade A self defined individual project",
+        "Grade A self defined honours year individual project",
         "Titled: 'Interactive Refrigerator Magnet To Reduce Food Waste'",
         "Conducted 2 rounds of user interviews to initially gather requirements",
         "Experimentally evaluated the final application"
@@ -35,9 +35,8 @@ export const projectPortfolio = [
       icon: "assets/mobile.png",
       title: "Nutriplotter",
       desc: [
-        "Grade A final third year team projec",
         "React Native mobile app to encourage healthy eating through a plate building game",
-        "Built for The Glasgow School of Dentistry & Medicine",
+        "Worked very close with client, The Glasgow School of Dentistry & Medicine, throughout the entire development lifecycle",
         "Had regular stand-ups, sprints retrospectives and task estimation",
       ],
       technologies: ["React Native", "Python", "SQL", "SCSS"],

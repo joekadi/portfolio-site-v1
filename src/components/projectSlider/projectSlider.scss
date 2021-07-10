@@ -11,7 +11,7 @@
 
     h1{
         position: absolute;
-        top: 30px;
+        top: 5%;
         font-size: 50px;
         @include mobile{
             font-size: 22px;
@@ -21,7 +21,7 @@
     .button {
         width: 200px;
         height: 30px;
-        bottom: 60px;
+        bottom: 6.5%;
         position: absolute;
         background-color: white;
         border: none;

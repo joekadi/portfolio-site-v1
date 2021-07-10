@@ -13,6 +13,8 @@
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox
+        flex-grow: 0;
+        flex-shrink: 0;
 
         &::-webkit-scrollbar{
             display: none; //for other browsers
@@ -28,6 +30,8 @@
             width: 100vw;
             height: calc(100vh - 70px);
             scroll-snap-align: start;
+            flex-grow: 0;
+            flex-shrink: 0;
             
             @include mobile {
                 scroll-snap-align: none;

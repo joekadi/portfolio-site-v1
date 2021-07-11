@@ -2,41 +2,40 @@
 
 .app{
     height: 100vh;
-
-
+    @include mobile{
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+    }
+    
+    
     .sections{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: lightsalmon;
         position: relative;
         top: 70px;
         overflow-x: hidden; 
         scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         scrollbar-width: none; //for firefox
-
         &::-webkit-scrollbar{
             display: none; //for other browsers
+            
         }
 
-
         @include mobile {
-            scroll-behavior: none;
-            scroll-snap-type: none;
+            height: calc((var(--vh, 1vh) * 100) - 70px);
         }
 
         > *{
             width: 100vw;
             height: calc(100vh - 70px);
             scroll-snap-align: start;
-
             
             @include mobile {
-                scroll-snap-align: none;
+                height: calc((var(--vh, 1vh) * 100) - 70px);
                 
             }   
             
-
         }
     }
 }

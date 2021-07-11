@@ -6,15 +6,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
-
+    
     h1{
         position: absolute;
         top: 5%;
         font-size: 50px;
         @include mobile{
             font-size: 22px;
+            position: absolute;
+            top: 2.5%;
+           
         }
         color: white;
     }
@@ -38,6 +40,12 @@
         
         &:focus{
             outline: none;
+        }
+
+        @include mobile{
+            position: absolute;
+            bottom: 2.5%;
+
         }
     }
 

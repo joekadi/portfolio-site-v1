@@ -43,9 +43,7 @@
     .right{
         flex: 0.5;
         position: relative;
-        @include mobile {
-           margin-bottom: 10px;
-        }
+
 
         .wrapper{
             width: 100%;

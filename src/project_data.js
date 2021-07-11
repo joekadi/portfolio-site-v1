@@ -22,7 +22,7 @@ export const projectPortfolio = [
         "Grade A self defined honours year individual project",
         "Titled: 'Interactive Refrigerator Magnet To Reduce Food Waste'",
         "Conducted 2 rounds of user interviews to initially gather requirements",
-        "Experimentally evaluated the final application"
+        "Experimentally evaluated the final application with users"
 
         
       ],

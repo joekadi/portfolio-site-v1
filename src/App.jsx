@@ -7,7 +7,6 @@ import Menu from "./components/menu/Menu";
 import About from "./components/about/About";
 import "./app.scss"
 import { useState } from "react"
-import Div100vh from 'react-div-100vh'
 
 
 function App() {
@@ -34,6 +33,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen = {setMenuOpen}/>
       <div className="sections">
         <Intro/>
+        <About />
         <ProjectSlider/>
         <Writings/>
         <Contact/>

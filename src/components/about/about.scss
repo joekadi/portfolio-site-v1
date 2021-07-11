@@ -25,11 +25,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        @include mobile{
-            height: 68%;
-
-        }
-
+       
         .contentBox{
             width: 700px;
             height: 50%;
@@ -41,7 +37,7 @@
 
             @include mobile {
                 width: 80%;
-                height: 70%;
+                height: 60%;
                 margin: 15px 0;
                 }
 

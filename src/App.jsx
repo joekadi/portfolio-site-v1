@@ -9,7 +9,9 @@ import "./app.scss"
 import { useState } from "react"
 
 
+
 function App() {
+
 
   // get the viewport height and we multiple it by 1% to get a value for a vh unit
   let vh = window.innerHeight * 0.01;
@@ -22,7 +24,6 @@ function App() {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   });
-
 
 
   const [menuOpen, setMenuOpen] = useState(false)

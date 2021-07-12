@@ -28,13 +28,11 @@ export default function ProjectSlider() {
                             <div className="contentContainer">
                                 <h2>{d.title}</h2>
                                 <h3>Technologies Used: <b>{d.technologies[0]}, {d.technologies[1]}, {d.technologies[2]}, {d.technologies[3]}</b></h3>
-                                
                                 {d.desc.map((word, idx) => (
                                         <ul>
                                             <li key={idx}>{word}</li>
                                         </ul> 
                                 ))}
-
                                 <div className="links">
                                 <a href={d.links[0]} target="_blank"><b><span>{d.linkTitles[0]}</span></b></a>
                                 <a href={d.links[1]} target="_blank"><b><span>{d.linkTitles[1]}</span></b></a>

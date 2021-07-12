@@ -5,6 +5,7 @@ import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import DescriptionOutlinedIcon from '@material-ui/icons/DescriptionOutlined';
 import CreateOutlinedIcon from '@material-ui/icons/CreateOutlined';
 import { Divider, Typography } from '@material-ui/core';
+import PersonOutlineOutlinedIcon from '@material-ui/icons/PersonOutlineOutlined';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 import {useState, useEffect} from 'react';
@@ -32,6 +33,10 @@ export default function Menu({ menuOpen, setMenuOpen }) {
                 <li onClick={()=>setMenuOpen(false)}>
                    <HomeOutlinedIcon className="menuIcon"/>
                    <a href="#intro">HOME</a>
+                </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                   <PersonOutlineOutlinedIcon className="menuIcon"/>
+                   <a href="#about">ABOUT</a>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
                    <CodeOutlinedIcon className="menuIcon"/>

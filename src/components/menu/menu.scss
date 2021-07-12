@@ -13,11 +13,12 @@
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
-
+    
 
 
     &.active{
         right: 0;
+        
     }
 
     ul{
@@ -28,6 +29,10 @@
         font-weight: 100;
         color: white;
         width: 60%;
+
+        @include mobile{
+            font-size: 14px;
+        }
 
         .menuIcon{
             width: 30px;

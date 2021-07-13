@@ -6,11 +6,18 @@ import Contact from "./components/contact/Contact";
 import Menu from "./components/menu/Menu";
 import About from "./components/about/About";
 import "./app.scss"
-import { useState } from "react"
+import { useState, useEffect } from "react"
+import ReactGa from 'react-ga';
+
 
 
 
 function App() {
+
+  // google analytics stuff
+  useEffect(() => {
+    ReactGa.initialize('UA-201902217-1')
+  }, [])
 
 
   // get the viewport height and we multiple it by 1% to get a value for a vh unit
@@ -33,11 +40,11 @@ function App() {
       <Topbar menuOpen={menuOpen} setMenuOpen = {setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen = {setMenuOpen}/>
       <div className="sections">
-        <Intro/>
-        <About />
-        <ProjectSlider/>
-        <Writings/>
-        <Contact/>
+          <Intro/>
+          <About />
+          <ProjectSlider/>
+          <Writings/>
+          <Contact/>
       </div>
     </div>
 

@@ -78,7 +78,7 @@ export default function About() {
                             <p>
                                 After graduating with a MSci in Computing Science, I've been wholly focused on building and 
                                 leveraging software to take ideas from zero to one. I also share what I learn over on my <a href="https://joekadi.medium.com/" target="_blank">blog</a>. 
-                                During university I had the opportunity to research deep learning and UX, develop many software applications for a range of clients, tutor students and mark exams. 
+                                During university I had the opportunity to research deep learning and UX, develop many software applications for a range of clients, tutored students and mark exams. 
                                 Whilst studying, I worked in a consultancy firm as a full stack software engineer and co-founded <a href="https://www.toceglasgow.com/" target="_blank">TÓCE</a>.
                                 If you have a project you think I could help with, or just want to chat, don't hesistate to <a href="#contact">get in touch!</a>
                             </p>

@@ -37,7 +37,7 @@ export const projectPortfolio = [
       desc: [
         "React Native mobile app to encourage healthy eating through a plate building game",
         "Worked very close with client, The Glasgow School of Dentistry & Medicine, throughout the entire development lifecycle",
-        "Had regular stand-ups, sprints retrospectives and task estimation",
+        "Had regular stand-ups, sprint retrospectives and task estimation",
       ],
       technologies: ["React Native", "Python", "SQL", "SCSS"],
       linkTitles: ["Live", "Repo"], 

@@ -15,7 +15,7 @@ export default function Intro() {
             strings: ["Engineer", "Developer", "Consultant" ],
         })
     },[])
-
+    
     return (
         <div className="intro" id="intro">
             <div className="left">

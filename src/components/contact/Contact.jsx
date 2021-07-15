@@ -11,7 +11,7 @@ export default function Contact() {
     const handleSubmit = (e)=> {
         e.preventDefault();
         setMessage(true);
-
+        
         emailjs.sendForm('service_spnschl', 'template_5rgn5g3', e.target, 'user_UVGXcXfUxvc5mpyeiDdvc')
         .then((result) => {
             console.log(result.text);
@@ -19,7 +19,6 @@ export default function Contact() {
             console.log(error.text);
         });
         e.target.reset();
-
     }
 
     const [width, setWidth] = useState(window.innerWidth);

@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com'
 
 export default function Contact() {
 
-    const [message,setMessage] = useState(false)
+    const [message, setMessage] = useState(false)
 
     const handleSubmit = (e)=> {
         e.preventDefault();

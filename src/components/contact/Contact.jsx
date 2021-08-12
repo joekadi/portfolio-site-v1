@@ -54,14 +54,14 @@ export default function Contact() {
                             <SocialIcon url="https://www.linkedin.com/in/joe-kadi/" className="socialIcon" bgColor="#dc143c" style={{ height: 35, width: 35 }}/> 
                             <SocialIcon url="https://joekadi.medium.com/" className="socialIcon" bgColor="#dc143c" style={{ height: 35, width: 35 }}/>
                             <SocialIcon url="https://github.com/joekadi" className="socialIcon" bgColor="#dc143c" style={{ height: 35, width: 35 }}/>
-                            <SocialIcon url="https://twitter.com/joekadi" className="socialIcon" bgColor="#dc143c" style={{ height: 35, width: 35 }}/> 
+                            {/* <SocialIcon url="https://twitter.com/joekadi" className="socialIcon" bgColor="#dc143c" style={{ height: 35, width: 35 }}/>  */}
                         </>
                     ) : (
                         <>
                             <SocialIcon url="https://www.linkedin.com/in/joe-kadi/" className="socialIcon" bgColor="#dc143c"/> 
                             <SocialIcon url="https://joekadi.medium.com/" className="socialIcon" bgColor="#dc143c"/>
                             <SocialIcon url="https://github.com/joekadi" className="socialIcon" bgColor="#dc143c"/>
-                            <SocialIcon url="https://twitter.com/joekadi" className="socialIcon" bgColor="#dc143c"/> 
+                            {/* <SocialIcon url="https://twitter.com/joekadi" className="socialIcon" bgColor="#dc143c"/>  */}
                         </>
                     )}
                            
